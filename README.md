@@ -9,7 +9,7 @@ The following language and metrics are used to assess the quality of each machin
   - Precision = True Positive/(True Positive + False Positive)
   - The closer the Precision value is to 1, the more precise the model
 
-- Sensitivity is a measure of how many people who actually have cancer were correctly diagnosed. 
+- Sensitivity is a measure of how many true positives a model identifies. 
   - Sensitivity = True Positive/(True Positive + False Negative)  
   - The closer the Sensitivity (or Recall) value is to 1 the more sensitive the model
 
