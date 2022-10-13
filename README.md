@@ -17,7 +17,7 @@ The following language and metrics are used to assess the quality of each machin
   -  2(Precision * Sensitivity)/(Precision + Sensitivity)
   - The more balanced Sensitivity and Precision scores are the higher the F1 score, the more imbalanced, the lower the F1 score
 
-- The confusion matrix (below) is the table and visual representation of our performative scores
+- The confusion matrix (below) is the table and visual representation of predicted outcomes and actual outcomes used to produce our True/False Positives and True/False Negatives used in determing sensitivity and precision.
 ![Screen Shot 2022-10-12 at 5 48 22 PM](https://user-images.githubusercontent.com/107326987/195473717-046442d8-2d49-4e3d-8bfd-1ea829108f3d.png)
 
 - The Classification Report includes the Precision, Recall (Sensitivity) and F1 scores for each of the dichotomous outcome metrics for the machine learning model.
@@ -61,7 +61,7 @@ Below are the scores for each of the machine learning models that use different 
 
 ### Easy Ensemble AdaBoost Classifier
 - The most performative machine learning model - Adaptive Boosting allows the model to perform its data fitting several times, each time learning from its miss-classifications. This model provides the best precision and sensitivity scores for both low and high risk loand candidates.
-- 
+
 ![adaboost_cm](https://user-images.githubusercontent.com/107326987/195473511-84d70739-37dd-415d-9e15-15d40eaf8ea9.png)
 
 ![adaboost_classification](https://user-images.githubusercontent.com/107326987/195473519-211993af-6a85-47a4-b21c-202d30fe5e80.png)
