@@ -6,16 +6,16 @@
 ## Results:
 The following language and metrics are used to assess the quality of each machine learning model and its overall score for predicting outcomes.
 - Precision is the measure of accuracy for true positives (how likely is a positive result actually true). Precision is measured using the following algorithm with values produced by the confusion matrix. 
--- Precision = True Positive/(True Positive + False Positive)
--- The closer the Precision value is to 1, the more precise the model
+  - Precision = True Positive/(True Positive + False Positive)
+  - The closer the Precision value is to 1, the more precise the model
 
 - Sensitivity is a measure of how many people who actually have cancer were correctly diagnosed. 
--- Sensitivity = True Positive/(True Positive + False Negative)  
--- The closer the Sensitivity (or Recall) value is to 1 the more sensitive the model
+  - Sensitivity = True Positive/(True Positive + False Negative)  
+  - The closer the Sensitivity (or Recall) value is to 1 the more sensitive the model
 
 - The F1 Score is a single summarizing statistics that takes into account precision and sentivity values, as they can often be at odds. The formula for generating the F1 score of a machine learning model is
---  2(Precision * Sensitivity)/(Precision + Sensitivity)
--- The more balanced Sensitivity and Precision scores are the higher the F1 score, the more imbalanced, the lower the F1 score
+  -  2(Precision * Sensitivity)/(Precision + Sensitivity)
+  - The more balanced Sensitivity and Precision scores are the higher the F1 score, the more imbalanced, the lower the F1 score
 
 - The confusion matrix (below) is the table and visual representation of our performative scores
 ![Screen Shot 2022-10-12 at 5 48 22 PM](https://user-images.githubusercontent.com/107326987/195473717-046442d8-2d49-4e3d-8bfd-1ea829108f3d.png)
